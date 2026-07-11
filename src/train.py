@@ -149,6 +149,7 @@ for n in n_estimators_list:
         f1 = f1_score(
             y_test,
             predictions,
+            average='weighted'
         )
 
         print(f"Accuracy  : {accuracy:.4f}")
