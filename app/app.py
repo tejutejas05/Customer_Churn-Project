@@ -53,7 +53,7 @@ def home():
     }
 
 
-# Prediction Endpoint
+# Prediction Endpoint  
 
 @app.post("/predict")
 def predict(customer: CustomerData):
